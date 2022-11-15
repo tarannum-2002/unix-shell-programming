@@ -1,0 +1,171 @@
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sudo root
+[sudo] password for bmscecse: 
+Sorry, try again.
+[sudo] password for bmscecse: 
+sudo: root: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ sudo root
+sudo: root: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ mkdir dummy
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ mkdir tarannum
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd tarannum
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ mkdir practice-commands
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd practice-commands
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ touch lab3
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ script lab3
+Script started, output log file is 'lab3'.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cat >file1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cat file1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cat >file2
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cat file2
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cp file2 file1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cat file1
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ practice-commands2
+practice-commands2: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ mkdir pratice-commands2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd pratice-commands2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cat file3
+cat: file3: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cat > file3
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cp pratice-commands/file2 file3
+cp: cannot stat 'pratice-commands/file2': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cp pratice-commands/file2 pratice-commands2/file3
+cp: cannot stat 'pratice-commands/file2': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cp practice-commands/file2 practice-commands2/file3
+cp: cannot create regular file 'practice-commands2/file3': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cp practice-commands/file2 pratice-commands2/file3
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd pratice-commands2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cat file3
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cat > chap1
+this is chap1 file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cat  chap1
+this is chap1 file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cat > files-with-chap
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cp chap* files-with-chap
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cat files-with-chap
+this is chap1 file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ man cp
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cp -i file3
+cp: missing destination file operand after 'file3'
+Try 'cp --help' for more information.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cp -i file3 file4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cp -i practice-commands/file2 pratice-commands2/file3 
+cp: overwrite 'pratice-commands2/file3'? yes
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cat practice-commands2/file3
+cat: practice-commands2/file3: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cat pratice-commands2/file3
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd practice-commands
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ rm file2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cat file2
+cat: file2: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ ls
+file1  lab3
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ mv lab3 week2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd pratice-commands2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ mv file3 file4 practice-commands2
+mv: target 'practice-commands2' is not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ mv file3 file4 pratice-commands2
+mv: target 'pratice-commands2' is not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ pwd
+/home/bmscecse/tarannum/pratice-commands2
+bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$
+ mv file3 /home/bmscse/tarannum/practice-commands
+mv: cannot move 'file3' to '/home/bmscse/tarannum/practice-commands': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ mv file3 /home/bmscecse/tarannum/practice-commands
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ mv pc2
+mv: missing destination file operand after 'pc2'
+Try 'mv --help' for more information.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ file week2
+week2: cannot open `week2' (No such file or directory)
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pratice-commands2$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd practice-commands
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ file week2
+week2: Unicode text, UTF-8 text, with very long lines (473), with CRLF, CR, LF line terminators, with escape sequences, with overstriking
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ wc -w week2
+6422 week2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ od -bc file1
+0000000 150 145 154 154 157 040 167 157 162 154 144 012
+          h   e   l   l   o       w   o   r   l   d  \n
+0000014
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cmp practice-commands/file1 pratice-commands2/chap1
+practice-commands/file1 pratice-commands2/chap1 differ: byte 1, line 1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ man cmp
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ comm practice-commands/file1 pratice-commands2/chap1
+hello world
+	this is chap1 file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ comm practice-commands/file1 pratice-commands2/chap1
+	hello this is chap1 file
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ comm practice-commands/file1 pratice-commands2/chap1
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ comm file1 chap1
+comm: file1: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd practice-commands
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ comm file1 chap1
+hello world
+	this is chap1 file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ comm file1 chap1
+	hello this is chap1 file
+hello world
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ comm file1 chap1
+hello world
+	 this is chap1 hello file
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ comm file1 chap1
+hello 
+	 this 
+comm: file 2 is not in sorted order
+	 is
+	 chap1 
+	 hello 
+	 file
+world
+comm: input is not in sorted order
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ comm file1 chap1
+		apple
+	banana
+	chickoo
+fruit
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ comm chap1 file1 
+		apple
+banana
+chickoo
+	fruit
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ diff chap1 file1 
+2,3c2
+< banana
+< chickoo
+---
+> fruit
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cd..
+cd..: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ gzip practice-commands
+gzip: practice-commands is a directory -- ignored
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd practice-commands
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ gzip file1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ gunzip file1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cd ..\
+> ^C
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/practice-commands$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ mv practice-commands pc1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ mv pratice-commands2 pc2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ script
+Script started, output log file is 'typescript'.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum$ cd pc1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pc1$ script
+Script started, output log file is 'typescript'.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pc1$ script week2
+Script started, output log file is 'week2'.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pc1$ ^C
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/tarannum/pc1$ 
+
+
